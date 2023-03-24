@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?f1remamily=Poppins:wght@300;400&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,700;1,400;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    background-image: url(../images/thumbs/bg.PNG);
+}
+.contact-title{
+    display: flex;
+    padding: 1rem;
+    position: relative;
+    justify-content: center;
+    margin-top: 5rem;
+    color: white;
+    font-size: 3rem;    
+}
+form {
+    position: relative;
+    max-width: 50%;
+    margin: auto;
+    justify-content: center;
+  }
+  label {
+    display: block;
+    margin-bottom: .5rem;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  input,
+  textarea {
+    text-align: center;
+    padding: 1rem;
+    border-radius: .29rem;
+    border: none;
+  }
+   .placeholder{
+    color:rgb(191, 11, 11);
+  }
+  button[type=submit] {
+      background-color:#051047;
+    color: white;
+      padding:1rem;
+      border-radius:.3rem;
+      margin:1rem 1rem;
+      cursor: pointer;
+  }
+  button[type=Reset]{
+    background-color:#0277BD;
+    color:white;
+    padding:1rem;
+    border-radius:.3rem;
+    margin:1rem 1rem;
+    cursor: pointer;
+}
+  
+  /* Custom styles */
+  form label{
+      font-weight: bold;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+      width:100%;
+     box-sizing:border-box;}
+  
+  textarea {
+      height:150px;
+  }

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Sign in & Sign up</title>
+  </head>
+  <body>
+    <dv class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="" class="sign-in-form" method="post">
+            <h2 class="title">Sign in</h2>
+            <div class="input-field">
+              <i class="fa fa-user"></i>
+              <input type="text" placeholder="username" required />
+            </div>
+            <div class="input-field">
+              <i class="fa fa-lock"></i>
+              <input type="password" placeholder="password" required />
+            </div>
+            <input
+              type="submit"
+              class="btn solid"
+              name="submit"
+              id="submit"
+              value="login"
+            />
+            <p class="social-text">Or sign in with Our Social platform</p>
+            <div class="social-media">
+              <a href="" class="social-icon"><i class="fa fa-facebook"></i> </a>
+
+              <a href="" class="social-icon"><i class="fa fa-twitter"></i></a>
+
+              <a href="" class="social-icon"><i class="fa fa-instagram"></i></a>
+
+              <a href="" class="social-icon"> <i class="fa fa-google"></i> </a>
+
+              <!--<a href="" class="social-icon"></a> -->
+            </div>
+          </form>
+          <!--sign up-->
+
+          <form action="about.html" class="sign-up-form" method="post">
+            <h2 class="title">Sign up</h2>
+
+            <div class="input-field">
+              <i class="fa fa-user"></i>
+              <input type="text" placeholder="username " required />
+            </div>
+
+            <div class="input-field">
+              <i class="fa fa-envelope"></i>
+              <input type="text" placeholder="Email" required />
+            </div>
+
+            <div class="input-field">
+              <i class="fa fa-lock"></i>
+              <input type="password" placeholder="password" required />
+            </div>
+            <input
+              type="submit"
+              class="btn solid"
+              name="submit"
+              id="submit"
+              value="sign up"
+            />
+            <p class="social-text">Or sign up with Our Social platform</p>
+            <div class="social-media">
+              <a href="" class="social-icon"><i class="fa fa-facebook"></i></a>
+
+              <a href="" class="social-icon"><i class="fa fa-twitter"></i></a>
+
+              <a href="" class="social-icon"><i class="fa fa-instagram"></i></a>
+
+              <a href="" class="social-icon"> <i class="fa fa-google"></i> </a>
+
+              <!--<a href="" class="social-icon"></a> -->
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>You are New here ?</h3>
+            <p>
+              Please signup to be one of us and to get more information about us
+              and what we do
+            </p>
+            <button class="btn transparent" id="sign-up-btn">Sign up</button>
+          </div>
+          <img src="./images/sign up.svg " class="image" alt="rocket.svg" />
+        </div>
+
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>One Of Us</h3>
+            <p>
+              You are one of us signin to and get more information about us and
+              what we do
+            </p>
+            <button class="btn transparent" id="sign-in-btn">Sign in</button>
+          </div>
+
+          <img src="./images/login.svg" class="image" alt="desk.svg" />
+        </div>
+      </div>
+    </dv>
+    <script src="./jsfile/login.js"></script>
+  </body>
+</html>

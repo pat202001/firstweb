@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?f1remamily=Poppins:wght@300;400&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,700;1,400;1,600;1,700&display=swap");
+
+/* Fonts */
+/* Custom properties */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /*background-color: green;*/
+   background-image: url(../images/thumbs/bg.PNG);  
+}
+
+.notification {
+  position: relative;
+}
+
+.dashboard {
+  display: flex;
+  background-image: url(../images/BG.jpg);
+}
+
+.left-section {
+  display: block;
+  width: 20%;
+  margin-left: 1rem;
+}
+
+.dash-icons {
+  margin-left: 0;
+
+}
+
+.dash-icons img {
+  margin: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 0.8rem;
+}
+
+.dash-icons img:hover {
+  background-color: darkgoldenrod;
+  border-top-right-radius: 0.8rem;
+}
+
+.dash-icons li {
+  list-style: none;
+}
+
+.dash-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.two-in-one {
+  display: inline-flex;
+  justify-content: first baseline;
+  text-align: center;
+}
+
+.two-in-one span {
+  padding: 1rem 1rem 1rem 0.8rem;
+}
+
+.two-in-one span:hover {
+   background-color: darkgoldenrod;
+  border-top-right-radius: 0.8rem;
+}
+
+.middle-section {
+  display: flex-end;
+  width: 70%;
+  
+}
+
+.search {
+  position: relative;
+  width: 100%;
+  margin: 10px 0;
+  padding: 1rem 0.4rem;
+  border-radius: 0.5rem;
+  text-align: center;
+
+}
+
+.title {
+  position: relative;
+  display: flex;
+  width:100%;
+  background-color: antiquewhite;
+  justify-content: space-evenly;
+  margin-left: 0;
+  padding: 1rem;
+}
+.title h1{
+  color: rgba(4, 4, 180, 0.92);
+}
+.title label {
+  color: rgba(4, 4, 180, 0.92);
+}
+.sort{
+  color: rgba(4, 4, 180, 0.92);
+}
+
+.gallery-overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  border: 0.1rem dashed white;
+  background-image: url(../images/BG.jpg);
+}
+
+.gallery-overview .gallery {
+  display: block;
+  position: relative;
+  border: 0.1rem solid white;
+  margin: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+}
+
+.gallery-overview .social-media {
+  display: block;
+  position: relative;
+  border: 0.1rem solid white;
+  margin: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+}
+
+.gallery-overview .service {
+  display: block;
+  position: relative;
+  border: 0.1rem solid white;
+  margin: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+}
+
+
+.gallery-overview .contact {
+  display: block;
+  position: relative;
+  border: 0.1rem solid white;
+  margin: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+}
+
+.gallery-overview .meta {
+  position: relative;
+  color: white;
+  margin-left: 95%;
+  margin-bottom: 2rem;
+  cursor: pointer
+}
+
+.right-section {
+  position: relative;
+  width: 10%;
+}
+
+.right-section-icon {
+  position: relative;
+  display: flex;
+  margin-top: 0;
+  opacity: 0.9;
+  justify-content: space-evenly;
+
+}
+
+.right-section li {
+  list-style: none;
+}
+
+.right-section img {
+  width: 40px;
+  border-radius: 50%;
+
+
+}
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+  
+}
+
+@media screen and (min-width: 1024px) {}

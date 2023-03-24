@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title></head
+  ><link rel="stylesheet" href="./css/dashboard.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+  />
+  <body>
+     <header>
+      
+      <img
+        src="./images/logo.png"
+        alt=" logo"
+        class="dash-logo"
+        width="64px"
+        height="64px"
+      />
+        <marquee   behavior=" alternate" direction="up">Welcome to My Artwork Center</marquee>
+
+    </header> 
+    <!-- Dashboard starts -->
+    <div class="dashboard">
+      <!--  left-navigation starts  -->
+      <section class="left-section">
+        <ul class="dash-icons">
+          <li>
+            <a class="two-in-one" href=""
+              ><img src="./images/dasboard.png" alt="" /> <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a class="two-in-one" href="">
+              <img src="./images/gallery.jpg" alt="" /><span>Gallery</span></a
+            >
+          </li>
+          <li>
+            <a class="two-in-one" href=""
+              ><img src="./images/social_media.jpg" alt="" />
+              <span>social_media</span></a
+            >
+          </li>
+          <li>
+            <a class="two-in-one" href=""
+              ><img src="./images/service.jpg" alt="" /> <span>Service</span></a
+            >
+          </li>
+          <li>
+            <a class="two-in-one" href=""
+              ><img src="./images/email.png" alt="" /> <span>Contact</span></a
+            >
+          </li>
+
+          <li>
+            <a class="two-in-one" href=""
+              ><img src=" ./images/setting.png" alt="" /><span
+                >Settings</span
+              ></a
+            >
+          </li>
+        </ul>
+      </section>
+      <!-- middle section starts  -->
+      <section class="middle-section">
+        <div>
+          <form action="">
+            <input
+              type="text"
+              class="search"
+              name="search"
+              id="search"
+              placeholder="Search here "
+            />
+          </form>
+        </div>
+        <div class="title">
+          <h1>Overview</h1>
+          <form action="">
+            <label for="Views">Sort by</label>
+            <select name="Views" id="Views">
+              <option class="sort" value="recent">Recent Viewed</option>
+              <option  class="sort" value="recent">Last Viewed</option>
+              <option  class="sort"value="recent">Most Viewed</option>
+            </select>
+          </form>
+        </div>
+        <div class="gallery-overview">
+          <div class="gallery">
+            <h2>Gallery</h2>
+            <div class="activity">
+              <div class="meta">
+                <span><i class="fa-solid fa-ellipsis-vertical" id="gallery"></i></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <h2>Social_Media</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+              atque hic cupiditate? Ipsam ipsum ipsa nesciunt, tenetur
+              voluptates aut cum ad quidem nihil beatae, ratione tempora fugit
+              debitis hic sequi?
+            </p>
+            <div class="meta">
+              <span
+                ><i class="fa-solid fa-ellipsis-vertical" id="social-media"></i
+              ></span>
+            </div>
+          </div>
+
+          <div class="service">
+            <h2>Service</h2>
+            <div class="meta">
+              <span><i class="fa-solid fa-ellipsis-vertical"id="service"></i></span>
+            </div>
+          </div>
+          <div class="contact">
+            <h2>Contact</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
+              saepe nobis architecto, amet consectetur quaerat accusantium porro
+              nam fuga, voluptates voluptatem perferendis magnam. Officiis animi
+              corporis veritatis eveniet, adipisci dolores.
+            </p>
+            <div class="meta">
+              <span><i class="fa-solid fa-ellipsis-vertical" id="contact"></i></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  middle-section ends  -->
+
+      <section class="right-section">
+        <ul class="right-section-icon">
+          <li>
+            <a href=""><img src="./images/notifitication.png" alt="" /> </a>
+          </li>
+          <li>
+            <a href=""><img src="./images/login.jpg" alt="" /> </a>
+          </li>
+        </ul>
+      </section>
+      <script src="./jsfile/admin.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?f1remamily=Poppins:wght@300;400&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,700;1,400;1,600;1,700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Titilium Web;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+body {
+    width:100%;
+    line-height: 1.5rem;
+     /* background-color: rgb(12, 3, 53);  */
+  background: url(../images/thumbs/bg.PNG);
+}
+/* header section starts here */
+ .social_media-icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  padding: 2rem 0rem 0rem 2rem;
+  border-radius:50%;
+  
+} 
+.logo img {
+  border-radius:50%;
+  
+}
+.header-icons {
+  color: white;
+  list-style: none;
+}
+.social_media-icon li {
+  padding: 1rem;
+}
+.social_media-icon a {
+  color: #fff;
+  padding: 0.2rem;
+}
+header {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+.hero-section {
+  position: relative;
+  display: flex;
+  padding-left: 2rem;
+  margin-top: 1rem;
+  justify-content: space-around;
+}
+.wrapper-icons-parag {
+  max-width: 55%;
+  display: grid;
+  grid-template-columns: 3fr 1.5fr;
+}
+.hero-subsection-left {
+  color: #fff;
+}
+.middle-icons-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-content: center;
+}
+.square-icon {
+  transform: rotate(45deg);
+  margin-left: -2rem;
+}
+.circle-icon {
+  margin-left: -4rem;
+}
+.hero-subsection-right {
+  min-width: 40%;
+}
+.icon-left-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.icon-left {
+  margin-right: -2rem;
+  opacity: 0.8;
+}
+.hero-subsection-left p {
+  font-size: 3rem;
+}
+
+.header-nav-items {
+  position: relative;
+  width: 100%;
+  padding: 1rem 5rem 1rem 1rem;
+}
+.fa-facebook{
+  color: #fff;
+}
+.fa-instagram{
+  color: #fff;
+}
+.fa-snapchat{
+  color: #fff;
+}
+.fa-linkedin-in{
+  color: #fff;
+}
+.fa-whatsapp{
+  color: #fff;
+}
+
+.header-nav-items ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  gap:1rem;
+ 
+}
+.header-nav-items ul a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: #fff;
+}
+ .header-nav-items ul a:hover {
+  background-color: #f9a825;
+  border-radius: 0.1rem;
+}
+  .icons {
+  display: flex;
+  width:30%;
+  font-size:2.5rem;
+  align-items: center;
+  padding: 2rem 5rem 2rem 2rem;
+  justify-content: space-between;
+  
+}
+/* checkout starts here  */
+
+/* header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  } */
+  
+  header h1 {
+    margin: 0;
+    color: #fff;
+  }
+  
+  .checkout-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 100px;
+  }
+  
+  .order-summary {
+    width: 40%;
+    color: #fff;
+  }
+  
+  .order-summary ul {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  .order-summary ul li {
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  .checkout-form {
+    width: 55%;
+    color: #fff;
+  }
+  .checkout-form h2 {
+    margin-top: 0;
+    color: #fff;
+  }
+  .checkout-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .checkout-form input[type="text"],.check{ 
+  width:80%;
+  padding: 0.5rem;
+    background-color: #cfcdca;
+    border-radius: 0.2rem;
+  }
+  .checkout-form input[type="email"],.check{ 
+    width:80%;
+    padding: 0.5rem;
+      background-color: #cfcdca;
+      border-radius: 0.2rem;
+    }
+    .submit-purchase{
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        background-color: #F9A825;
+        color: #fff;
+
+    }
+/* check ends here  */
+
+/* footer starts here  */
+.row { width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1rem 1rem;
+    background-color: #4d4b48;
+} 
+.footer-col {
+    position:relative;
+    display:block;
+    min-width: 25%;
+}
+.footer-title {
+    font-size: 1.5rem;
+    color: #F9A825;
+    text-transform: capitalize;
+    margin-bottom:2rem;
+    
+}
+
+.footer-items {
+    position: relative;
+    font-size: 1.2rem;
+}
+.footer-items li {
+list-style: none;
+ 
+}
+.footer-items a {
+  text-decoration: none;
+  color: #fff;
+ }
+ .social-icons {
+    position: relative;
+    display: flex;
+    font-size: 2rem;
+} 
+.social-icons li{
+    position: relative;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;  
+}
+.social-icons  a{
+  color: #fff;
+   
+}
+ 
+/* footer ends here! */
+@media screen and (min-width:900px) and (max-width: 1200px){
+   
+}

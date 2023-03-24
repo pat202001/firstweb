@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?f1remamily=Poppins:wght@300;400&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,700;1,400;1,600;1,700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(../images/thumbs/bg.PNG);
+}
+
+.social_media-icons {
+  width: 100%;
+  display: flex;
+
+  justify-content: space-between;
+}
+.logo {
+  padding: 2rem 0rem 0rem 2rem;
+  border-radius:50%;
+  
+} 
+.logo  img {
+  border-radius:50%;
+  
+}
+.header-icons {
+  color: white;
+  list-style: none;
+}
+.social_media-icon li {
+  padding: 1rem;
+}
+.social_media-icon a {
+  color: #fff;
+  padding: 0.2rem;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+.hero-section {
+  position: relative;
+  display: flex;
+  padding-left: 2rem;
+  margin-top: 1rem;
+  justify-content: space-around;
+}
+.wrapper-icons-parag {
+  max-width: 55%;
+  display: grid;
+  grid-template-columns: 3fr 1.5fr;
+}
+.hero-subsection-left {
+  color: #fff;
+}
+.middle-icons-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-content: center;
+}
+.square-icon {
+  transform: rotate(45deg);
+  margin-left: -2rem;
+}
+.circle-icon {
+  margin-left: -4rem;
+}
+.hero-subsection-right {
+  min-width: 40%;
+}
+.icon-left-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.icon-left {
+  margin-right: -2rem;
+  opacity: 0.8;
+}
+.hero-subsection-left p {
+  font-size: 3rem;
+}
+.hero-btn { 
+   width:30%;
+  /* display: flex; */
+   position: relative;
+  background-color: #f9a825;
+  padding: 1rem;
+  border-radius: 0.9rem;
+  text-decoration: none;
+  margin-top:0;
+  margin-left: 20rem;
+  align-items: center;
+  color: #fff;
+}
+.header-nav-items {
+  position: relative;
+  width: 100%;
+padding: 1rem 5rem 1rem 1rem;
+}
+.fa-facebook{
+  color: #fff;
+}
+.fa-instagram{
+  color: #fff;
+}
+.fa-snapchat{
+  color: #fff;
+}
+.fa-linkedin-in{
+  color: #fff;
+}
+.fa-whatsapp{
+  color: #fff;
+}
+
+.header-nav-items ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+.header-nav-items ul a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: #fff;
+}
+.header-nav-items ul a:hover {
+  background-color: #f9a825;
+  border-radius: 0.1rem;
+}
+
+.icons {
+  display: flex;
+  width:30%;
+  font-size:2.5rem;
+  align-items: center;
+  padding: 2rem 5rem 2rem 2rem;
+  justify-content: space-between;
+}
+.hero-icon {
+  display: none;
+}
+.hero-nav {
+  margin-top: 2.5rem;
+  flex: 1;
+  text-align: right;
+}
+.hero-nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 3.75rem;
+}
+.hero-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0.3rem 0.1rem;
+}
+.hero-nav ul li a:hover {
+  color: #f9a825;
+}
+
+.hero-box-left {
+  position: relative;
+  margin: 1.25rem 0;
+  flex-basis: 50%;
+  min-width: 18.75rem;
+}
+.hero-gallery {
+  position: relative;
+  max-width: 85%;
+}
+.hero-gallery img {
+  width: 100%;
+  border: 0.6rem solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+}
+.hero-gallery ul {
+  position: absolute;
+  right: -50px;
+  top: 50%;
+  color: #fff;
+  transform: translateY(-50%);
+}
+.hero-gallery ul li {
+  list-style: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 0 1.8rem;
+  margin-bottom: 1.8rem;
+  position: relative;
+  cursor: pointer;
+}
+.hero-gallery ul li:hover {
+  color: #f9a825;
+}
+
+.hero-gallery .active {
+  color: #f9a825;
+}
+.hero-gallery ul li ::after {
+  content: '';
+  width: 30px;
+  height: 2px;
+  background: transparent;
+  position: absolute;
+  top: 8px;
+  left: -5px;
+}
+.hero-gallery .active::after {
+  background: #f9a825;
+}
+.footer{
+  background-color: #080339;
+  align-items: center;
+  text-align: center;
+
+}
+/* @media (min-width:576px) {
+  body{
+    background-color: #f9a825;
+  }
+.hero-section{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+  justify-content: space-around;
+  }
+   .hero-nav{
+    display:none;
+
+  }
+   .hero-icon {
+  width:1.8rem;
+  height:1.8rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  margin-left:2rem;
+ }
+ .hero-icon {
+  display:flex;
+}
+}
+@media screen and (min-width:900px) and (max-width: 1200px){
+ 
+}
+ */
