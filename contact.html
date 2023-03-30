@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-   
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,23 +7,44 @@
     <title>Contact Form</title>
     <link rel="stylesheet" href="./css/contact.css" />
   </head>
-  <header></header>
+  <header> 
+    <div class="whatsapp_code">
+      <a href=""><img src="./images/whatsap_code.png" width="120" alt="" /></a>
+    </div>
+  </header>
   <body>
-    <h1 class="contact-title"> Contact Us </h1>
-  <form onsubmit="return validateForm()">
+    <h1 class="contact-title">Contact Us</h1>
+    <form onsubmit="return validateForm()">
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        class="placeholder"
+        placeholder=" Your Name  required"
+      />
+
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        class="placeholder"
+        placeholder="Your email required"
+      />
+
+      <label for="message">Message:</label>
+      <textarea
+        id="message"
+        name="message"
+        class="placeholder"
+        placeholder=" Leave our messega Here required "
+      ></textarea>
+      
+      <button type="submit">Send</button>
+      <button type="reset" value="Reset">Reset</button>
+    </form>
     
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" class="placeholder" placeholder=" Your Name  required">
-  
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email"  class="placeholder"placeholder="Your email required">
-  
-    <label for="message">Message:</label>
-    <textarea id="message" name="message"  class="placeholder"placeholder=" Leave our messega Here required "></textarea>
-  
-    <button type="submit">Send</button>
-    <button type="reset" value="Reset">Reset</button>
-  </form>
     <script src="./jsfile/contact.js"></script>
   </body>
 </html>

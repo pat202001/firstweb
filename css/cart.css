@@ -145,6 +145,7 @@ header {
     width: 100%;
     border-collapse: collapse;
     /* background-color: #c7c6c6; */
+    background-color: rgb(2, 2, 32);
   }
   
   td, th {

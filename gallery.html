@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Art Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="./css/gallery.css" />
+    <title>Galllery</title>
   </head>
+  <header class="header">
+    <div class="social_media-icons">
+      <div class="logo">
+        <a href="hero.html"
+          ><img src="./images/drawing 1.jpg" alt=" logo" width="64" height="64"
+        /></a>
+      </div>
+      <div class="icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+
+        <a href="#"><i class="fab fa-instagram"></i></a>
+
+        <a href="#"><i class="fab fa-snapchat"></i></a>
+
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/+918154963270 " target="_blank"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+      </div>
+    </div>
+    <nav class="header-nav-items">
+      <ul>
+        <li><a href="hero.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Account</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
   <body>
+    <!-- gallery section starts here -->
     <div class="full-img" id="fullImgBox">
       <img src="./image/drawing 5.jpg" alt="" id="fullImg" />
       <span onclick="closeFullImg()">X</span>
@@ -16,6 +52,9 @@
           alt=""
           onclick="openFullImg(this.src)"
         />
+        <h1 class="image-name">Image name</h1>
+      <p class="image-descri">Description of Image </p>
+      <span>$19.99</span>
       </div>
       <div class="img-gallery">
         <img
@@ -23,6 +62,9 @@
           alt=""
           onclick="openFullImg(this.src)"
         />
+        <h1 class="image-name">Image name</h1>
+      <p class="image-descri" >Description of Image </p>
+      <span>$19.99</span>
       </div>
       <div class="img-gallery">
         <img
@@ -30,6 +72,9 @@
           alt=""
           onclick="openFullImg(this.src)"
         />
+        <h1 class="image-name">Image name</h1>
+      <p class="image-descri">Description of Image </p>
+      <span>$19.99</span>
       </div>
       <div class="img-gallery">
         <img
@@ -37,6 +82,9 @@
           alt=""
           onclick="openFullImg(this.src)"
         />
+        <h1 class="image-name">Image name</h1>
+      <p class="image-descri">Description of Image </p>
+      <span>$19.99</span>
       </div>
       <div class="img-gallery">
         <img
@@ -44,6 +92,9 @@
           alt=""
           onclick="openFullImg(this.src)"
         />
+        <h1 class="image-name">Image name</h1>
+      <p class="image-descri">Description of Image </p>
+      <span>$19.99</span>
       </div>
       <div class="img-gallery">
         <img
@@ -51,6 +102,9 @@
           alt=""
           onclick="openFullImg(this.src)"
         />
+        <h1 class="image-name">Image name</h1>
+      <p class="image-descri">Description of Image </p>
+      <span>$19.99</span>
       </div>
       <div class="img-gallery">
         <img
@@ -58,6 +112,9 @@
           alt=""
           onclick="openFullImg(this.src)"
         />
+        <h1 class="image-name">Image name</h1>
+      <p class="image-descri">Description of Image </p>
+      <span>$19.99</span>
       </div>
       <div class="img-gallery">
         <img
@@ -65,12 +122,63 @@
           alt=""
           onclick="openFullImg(this.src)"
         />
+        <h1 class="image-name">Image name</h1>
+      <p class="image-descri">Description of Image </p>
+      <span>$19.99</span>
       </div>
     </div>
-<footer class="footergallery">
-    <h1>Welcome to My Photo Gallery</h1>
-    <p>Discover amazing artworks from talented artists around the world.</p>
-  </footer>
+    <!-- gallery secttion ends here -->
+
+    <!-- footer starts here ! -->
+    <footer class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4 class="footer-title">Company</h4>
+          <ul class="footer-items">
+            <li><a href="#"> Home</a></li>
+            <li><a href="#"> Home</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Get Help</h4>
+          <ul class="footer-items">
+            <li><a href="#"> About Us</a></li>
+            <li><a href="#"> About Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">online Shop</h4>
+          <ul class="footer-items">
+            <li><a href="#">Contact </a></li>
+            <li><a href="#">Contact </a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Social media</h4>
+          <ul class="social-icons">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-snapchat"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ends here ! -->
     <script src="./jsfile/gallery.js"></script>
   </body>
 </html>

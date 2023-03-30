@@ -84,7 +84,6 @@ header {
 }
 .hero-btn { 
    width:30%;
-  /* display: flex; */
    position: relative;
   background-color: #f9a825;
   padding: 1rem;
@@ -94,6 +93,10 @@ header {
   margin-left: 20rem;
   align-items: center;
   color: #fff;
+}
+.hero-btn:hover{
+  background-color: #4a3104;
+
 }
 .header-nav-items {
   position: relative;
