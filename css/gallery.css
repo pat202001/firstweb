@@ -151,24 +151,16 @@ header {
   color: #fff;
   text-align: center;
  }
- .image-descri span{
-  color: #fff;
- }
+.img-gallery span{
+color: #F9A825; 
+align-items: center;
+text-align: center;
+
+
+}
  .img-gallery{
    background-image: url(../images/thumbs/);
    /* background-color: rgb(2, 12, 57); */
- }
- .img-gallery span{
-  color: #f9a825;
-  text-align: center; 
-  justify-content: center;
-  background-color: black;
- }
- .img-gallery .image-name .image-descri .image-descri span{
-  position: relative;
-  display: block;
-  
-  background-color: #F9A825;
  }
  .img-gallery img{
     width:100%;

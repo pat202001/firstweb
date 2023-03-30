@@ -12,9 +12,14 @@
   />
   <body>
     <header>
-      <img src="/images/logo.png" alt=" logo" class="dash-logo" width="64px"
-      height="64px" />
-      <marquee behavior=" alternate" direction="up"
+      <img
+        src="/images/logo.png"
+        alt=" logo"
+        class="dash-logo"
+        width="64px"
+        height="64px"
+      />
+      <!-- <marquee behavior=" alternate" direction="up" -->
         >Welcome to My Artwork Center</marquee
       >
     </header>
@@ -61,8 +66,8 @@
       </section>
       <!-- middle section starts  -->
       <section class="middle-section">
-        <div>
-          <form action="">
+        <div class="search-bar">
+          <form class="search-bar" action="">
             <input
               type="text"
               class="search"
@@ -89,12 +94,12 @@
             <div class="activity">
               <div class="meta">
                 <span>
-                  <a href="insert_image.html"><i class="fa-solid fa-ellipsis-vertical" id="gallery"></i
-                    ></a>
+                  <i class="fa-solid fa-ellipsis-vertical" onclick="openform()" id="gallery"></i
+                  ></a>
                 </span>
               </div>
             </div>
-          </div>
+          </div>        
 
           <div class="social-media">
             <h2>Social_Media</h2>
@@ -129,10 +134,26 @@
             </p>
             <div class="meta">
               <span
-                ><a href=""><i class="fa-solid fa-ellipsis-vertical" id="contact"></i> </a>
+                ><a href=""
+                  ><i class="fa-solid fa-ellipsis-vertical" id="contact"></i>
+                </a>
               </span>
             </div>
           </div>
+
+          <form id="insert-image-form" class="insert-image-form">
+            <label for="image-file">Image File:</label>
+            <input type="file" class="file" id="image-file" name="image-file" placeholder="iIge-file"><br>
+            <label for="image-title">Title:</label>
+            <input type="text" class="text" id="image-title" name="image-title" placeholder="Image-title"><br>
+            <label for="image-description">Description:</label>
+            <input type="text" class="text" id="image-description" name="image-description" placeholder="Image-description"><br>
+            <label for="image-price">Price:</label>
+            <input type="text" class="text"id="image-price" name="image-price" placeholder="Image-price"><br>
+            <button type="submit" class="btn-submit">Insert Image</button>
+          </form>
+
+
         </div>
       </section>
       <!--  middle-section ends  -->
@@ -149,5 +170,8 @@
       </section>
       <script src="./jsfile/admin.js"></script>
     </div>
+
+
+<script src="./jsfile/insert_image.js"></script>
   </body>
 </html>
